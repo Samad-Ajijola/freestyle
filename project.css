@@ -11,7 +11,7 @@ body{
 }
 .logotext p{
     font-size: 10px;
-    color: #7C828F;
+    color: rgb(77, 74, 74);
     font-weight: 500px;
 }
 .logotext h3{
@@ -33,7 +33,7 @@ body{
 .my_ul a{
     text-decoration: none;
     font-size: 12px;
-    color: #7C828F;
+    color: rgb(77, 74, 74);
 }
 .btn1{
     margin-right: 50px;
@@ -44,4 +44,44 @@ body{
     color: white;
     font-size: 10px;
     border: none;
+}
+.BGimg{
+    background-image: url(./images/dental\ img);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.TOOTHCARE{
+    margin-left: 800px;
+    padding-top: 300px;
+}
+.TOOTHCARE h1{
+    font-size: 80px;
+    color: #00BCD4;
+}
+.TOOTHCARE p{
+    font-size: 43px;
+    color: rgb(77, 74, 74);
+}
+.button_container{
+    margin-left: 900px;
+    margin-top: 20px;
+}
+.btn2{
+    padding: 15px 7px;
+    background-color: #00BCD4;
+    color: white;
+    font-size: 15px;
+    border: none;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.btn3{
+    padding: 15px 7px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
 }
