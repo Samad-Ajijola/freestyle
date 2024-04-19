@@ -6,7 +6,7 @@
 }
 body{
   height: 100vh;
-  background: url(./images/bg-img.jpg);
+  background: linear-gradient(rgba(14, 13, 13, 0.75), rgba(121, 117, 117, 0.75)), url(./images/bg-img.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -20,12 +20,26 @@ header{
 header .navbar{
   display: flex;
   align-items: center;
-  justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
+  justify-content: space-between;
+}
+.navbar .logo span{
+  color: #C06B3E;
+}
+.navbar .logo{
+  font-size: 2.1rems;
+  font-weight: 600;
+}
+.navbar .menu-links{
+  display: flex;
+  gap: 40px;
 }
 .navbar a{
   color: white;
   text-decoration: none;
-
+}
+.navbar a:hover{
+  color: #C06B3E;
+  transition: 0.2s ease;
 }
