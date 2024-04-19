@@ -18,3 +18,11 @@ body {
   justify-content: space-between;  
   align-content: center;
 }
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+   width: 100vw;
+  margin-top: 8px;
+}
