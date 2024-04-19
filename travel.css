@@ -1,0 +1,152 @@
+/* travel body style */
+#travel-page-body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/* selector styles */
+
+button{
+    padding: 20px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.662);
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+h2{
+    font-weight: 400;
+}
+
+p{
+    color: rgba(0, 0, 0, 0.662);
+}
+
+/* travel banner style */
+.banner-image{
+    background-image: url('./images/banner-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+   
+}
+
+.overlay-travel-banner{
+    background-color: rgba(0, 0, 0, 0.363);
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+}
+
+.overlay-travel-banner h1{
+    font-size: 60px;
+    margin-right: 55%;
+    padding-left: 20px;
+}
+
+/* travel section 1 style */
+
+.travel-section1{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 20px;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.travel-section1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.travel-section2{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 60px 100px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.075);
+}
+
+.travel-section2 img{
+    width: 100%;
+}
+
+.travel-section2 div{
+    border: 1px solid rgba(128, 128, 128, 0.137);
+    padding: 30px;
+
+}
+
+/* section 3 */
+.banner-customer-care{
+    background-image: url('./images/customer-care.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+
+}
+
+.overlay-2{
+    background-color: rgba(0, 0, 0, 0.221);
+    height: 600px;
+    color: white;
+    justify-content: center;
+    
+}
+
+.overlay-2 h2{
+    font-size: 50px;
+    padding-top: 15%;
+}
+
+.overlay-2 button{
+    width: 20%;
+}
+
+.overlay-2 *{
+   margin: 20px 100px;
+}
+
+
+/* travel footer */
+.travel-page-footer{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 50px;
+    margin: auto;
+    width: 80%;
+    padding-top: 50px;
+    
+}
+
+
+.travel-social-logos{
+    display: flex;
+    gap: 10px;
+}
+.travel-social-logos img{
+    width: 20%;
+}
+
+.travel-page-footer li{
+    list-style: upper-alpha;
+    color: rgba(0, 0, 0, 0.662);
+}
