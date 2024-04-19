@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logotext{
+    margin-left: 15px;
+}
+.logotext p{
+    font-size: 10px;
+    color: #7C828F;
+    font-weight: 500px;
+}
+.logotext h3{
+    color: #00BCD4;
+} 
+.MY_NAV{
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.my_ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin-right: 300px;
+    padding-top: 10px;
+}
+.my_ul a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #7C828F;
+}
+.btn1{
+    margin-right: 50px;
+}
+.btn1 button{
+    padding: 15px 7px;
+    background-color: #00BCD4;
+    color: white;
+    font-size: 10px;
+    border: none;
+}
