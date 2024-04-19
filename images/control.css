@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    display: flex;
+    justify-content:center;
+    background-color: rgb(37, 34, 34);
+    height: 50px;
+    list-style: none;
+    gap: 50px;
+    padding-top: 20px;
+    padding-right: 40px;
+    
+}
+.navigation>li>a{
+    text-decoration: none;
+    color: white;
+    gap: 10px;
+    margin-right: 75px;   
+}
+.navigation>li>a:hover{
+    color: brown;
+}
+.face{
+    height: 20px;
+}
+.background{
+    background-image: url(../images/BACK.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.our{
+    font-size: 70px;
+}
+.love{
+    font-size: 70px;
+}
+.line{
+    width: 10%;
+    margin: 10px auto;
+}
+.they{
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.button{
+    padding: 8px;
+    background-color: transparent;
+    color: white;
+}
+.feel{
+    margin-top: 70px;
+}
