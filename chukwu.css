@@ -26,3 +26,31 @@ body {
    width: 100vw;
   margin-top: 8px;
 }
+.section1 h2 {
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section1 p {
+  font-size: 20px;
+  margin: 10px 45px 10px 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+    width: 100vw;
+  margin-top: 30px;
+}
+
+.section2 h2 {
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section2 p {
+  font-size: 20px;
+  margin: 10px 45px 10px 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
