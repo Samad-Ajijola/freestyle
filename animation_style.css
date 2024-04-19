@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 700px;
+    background-color: transparent;    
+}
+
+/* Navitgation Section Style */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    width: 90%;
+    margin: auto;
+    background: transparent;
+}
+
+.navbar img{
+    height: 50px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.navbar a:hover {
+    background-color: darkslategray;
+    color: whitesmoke;
+    padding: 10px 20px;
+}
+/* Navitgation Section Style */
+
+/* Hero Banner */
+.hero {
+    height: 100%;
+    background: url(../freestyle/images/10578641.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    padding-left: 30px;
+    color: white;
+    flex-direction: column;
+}
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.hero button {
+    padding: 15px 30px;
+    font-size: 1em;
+    color: white;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+}
+/* Hero Banner */
+
+/* Console Grid */
+.consoles{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    height: 400px;
+    margin-top: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.consoles_img{
+    width: auto;
+    height: auto;
+    background: url(../freestyle/images/PS5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 30px;
+}
+
+.consoles_txt{
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    padding-top: 150px;
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+/* Console Grid */
+
+/* Anime Grid */
+.anime{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    height: 400px;
+    margin-top: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.anime_img{
+    width: auto;
+    height: auto;
+    background: url(../freestyle/images/Chuka_anime_nigerian_astronaut_zbrush_by_Yuma_detailed_dramatic_112806f6-0b18-4eaf-8aaf-e1f66fcc588b.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 30px;
+}
+
+.anime_txt{
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    padding-top: 150px;
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+/* Anime Grid */
+
