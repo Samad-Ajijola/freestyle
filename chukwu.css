@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  min-height: fit-content;  
+  padding: 10px;
+  margin: 10px;
+}
+
+.nav {
+  background-color: rgb(149, 205, 223);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  align-items: center;
+}
+.chuk {
+  font-size: 70px;
+  color: bisque;
+  font-weight: bold;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+   width: 100vw;
+  margin-top: 8px;
+}
+.section1 h2 {
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section1 p {
+  font-size: 20px;
+  margin: 10px 45px 10px 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+    width: 100vw;
+  margin-top: 30px;
+}
+
+.section2 h2 {
+  margin: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section2 p {
+  font-size: 20px;
+  margin: 10px 45px 10px 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+
+}
+.butt {
+  padding: 12px 20px;
+  background-color: blue;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  margin-left: 70px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+}
+
+
+footer{
+  border-top: solid 0.5px black;
+  margin: auto;
+  width: 90%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.link{
+  color: white !important;
+}
+.copy{
+  width: 100%;
+  border-top: 5% solid;
+  margin-top: 10px;
+}
+.address h3{
+  margin: 0;
+}
+.address p{
+margin: 0;
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.s-icon{
+  width: 30px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.gh {
+display: flex;
+flex-direction: row;
+gap: 600px;
+align-items: center;
+justify-content: center;
+border-top: solid 0.5px white;
+width: 90%;
+
+}
