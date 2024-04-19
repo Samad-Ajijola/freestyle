@@ -6,7 +6,7 @@
 .navigation{
     display: flex;
     justify-content:center;
-    background-color: rgb(37, 34, 34);
+    background-color: #001867;
     height: 50px;
     list-style: none;
     gap: 50px;
@@ -57,4 +57,18 @@
 }
 .feel{
     margin-top: 70px;
+}
+.second_div{
+    background-color:#423692;
+    height: 300px;
+}
+.RESEARCH{
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 70px;
+    text-align: center;
+}
+.kin{
+    margin-bottom: 20px;
+   
 }
