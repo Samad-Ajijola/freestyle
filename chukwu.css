@@ -54,3 +54,17 @@ body {
   margin: 10px 45px 10px 10px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: justify;
+
+}
+.butt {
+  padding: 12px 20px;
+  background-color: blue;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  margin-left: 70px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+}
