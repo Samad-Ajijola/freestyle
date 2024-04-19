@@ -146,3 +146,17 @@ body{
 .section-3 p{
     text-align: center;
 }
+
+.footer{
+    background-color: #00000070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+}
