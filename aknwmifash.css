@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Josefin Slab", serif;
+    background-image: url(./images/alexander-andrews-jNKv4QohAk0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    box-shadow: 2px 2px 5px white;
+    width: 98.5%;
+    margin: 10px 10px 0 10px;
+    background-color: #00000070;
+}
+
+.navigation ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+}
+
+.header{
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #00000070;
+    font-size: 60px;
+}
+
+.section-1{
+    margin: 20px;
+    background-image: url(./images/alyssa-strohmann-TS--uNw-JqE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 500px;
+    padding-left: 110px;
+}
+
+.section-1 button{
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+.section-1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-1 h1{
+    color: white;
+    text-shadow: 2px 2px #00000070;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2 button{
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+.section-2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-2 h1{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.section-2 p{
+    color: white;
+}
+
+.section-3{
+    background-image: url(./images/pedro-vit-nxssxDuytMA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin: 20px 20px 0 20px;
+}
+
+.section-3 button{
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    margin-top: 10px;
+    width: fit-content;
+}
+
+.section-3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-3 h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-3 p{
+    text-align: center;
+}
+
+.footer{
+    background-color: #00000070;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+}
