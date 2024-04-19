@@ -64,7 +64,16 @@ body {
     margin-left: 60px;
 }
 .container-2{
+    background-color: azure;
     display: flex;
     flex-direction: row;
     width: auto;
+}
+.container-2 text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    justify-self:center;
+    justify-content: center;
 }
