@@ -1,0 +1,143 @@
+.navigation {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(232, 232, 232, 0, 5);
+}
+
+.navigation ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20ppx;
+    display: block;
+}
+
+.navigation ul li:hover a {
+    background-color: black;
+    color: #ffffff;
+}
+
+.gby-container{
+    background-image: url(../freestyle/images/cupcake-3.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.gby-overlay{
+    background-color: rgba(0, 0, 0, 0.518);
+    color: pink;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.gby-overlay button{
+    padding: 10px 20px;
+    background-color: palevioletred;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.gby-container p{
+    color: pink;
+}
+
+.greening-cont{
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    padding-top: 20px;
+    text-align: center;
+    color: palevioletred;
+    font-size: 40px;
+    background-color: pink;
+}
+
+.pink-gridd{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 650px;
+    padding: 0 10px;
+    background-color: pink;
+    
+}
+
+.pink-box{
+    height: 400px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.pink-box button{
+    padding: 10px 20px;
+    background-color: palevioletred;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.ccy-cont{
+    background-image: url(../freestyle/images/cupcake-8.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.ccy-overlay{
+    background-color: rgba(0, 0, 0, 0.518);
+    color: pink;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+
+.ccy-overlay button{
+    padding: 10px 20px;
+    background-color: palevioletred;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+footer{
+    height: 100px;
+    margin-top: 10px;
+    background-color: palevioletred;
+    padding: 20px 0 10px 30px;
+}
+   
+
+
+
