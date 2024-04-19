@@ -41,9 +41,7 @@ body {
     justify-content: center;
     flex-direction: column;
 }
-/* .container{
-    Image src: url('./images/clothe\ 3.avif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
+.container{
+    display: flex;
+    background-color:rgb(241, 196, 112);
+}
