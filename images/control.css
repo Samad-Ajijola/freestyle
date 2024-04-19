@@ -38,6 +38,7 @@
 }
 .our{
     font-size: 70px;
+    padding-top: 30px;
 }
 .love{
     font-size: 70px;
@@ -54,6 +55,7 @@
     padding: 8px;
     background-color: transparent;
     color: white;
+    cursor: pointer;
 }
 .feel{
     margin-top: 70px;
