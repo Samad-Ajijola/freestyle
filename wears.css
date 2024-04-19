@@ -63,3 +63,8 @@ body {
     margin-top: 20px;
     margin-left: 60px;
 }
+.container-2{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
