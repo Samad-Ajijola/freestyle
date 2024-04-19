@@ -93,3 +93,60 @@ p{
     padding: 30px;
 
 }
+
+/* section 3 */
+.banner-customer-care{
+    background-image: url('./images/customer-care.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+
+}
+
+.overlay-2{
+    background-color: rgba(0, 0, 0, 0.221);
+    height: 600px;
+    color: white;
+    justify-content: center;
+    
+}
+
+.overlay-2 h2{
+    font-size: 50px;
+    padding-top: 15%;
+}
+
+.overlay-2 button{
+    width: 20%;
+}
+
+.overlay-2 *{
+   margin: 20px 100px;
+}
+
+
+/* travel footer */
+.travel-page-footer{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 50px;
+    margin: auto;
+    width: 80%;
+    padding-top: 50px;
+    
+}
+
+
+.travel-social-logos{
+    display: flex;
+    gap: 10px;
+}
+.travel-social-logos img{
+    width: 20%;
+}
+
+.travel-page-footer li{
+    list-style: upper-alpha;
+    color: rgba(0, 0, 0, 0.662);
+}
