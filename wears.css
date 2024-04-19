@@ -45,3 +45,21 @@ body {
     display: flex;
     background-color:rgb(241, 196, 112);
 }
+.text-image h1{
+    font-size: 50px;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.text-image p{
+    font-size: 15px;
+    color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
