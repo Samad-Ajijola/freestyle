@@ -12,6 +12,7 @@ body{
     background-color: aquamarine;
     height: 400px;
     margin-top: -36px;
+    height: 300px;
     
 }
 
@@ -68,3 +69,45 @@ body{
     background-color:palevioletred;
     color: #ffffff;
 }
+.agr-img{
+    background-image: url(../freestyle/images/pexels-mariannaole-757889.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 80%;
+    margin: auto;
+
+}
+.agr-img p{
+    align-items: center;
+    color:#ffffff;
+    padding-top: 95px;
+    padding-right: 304px;
+    text-align: center;
+    width: 70%;
+    font-size: 25px;
+
+}
+.home{
+    background-image: url(../freestyle/images/pexels-pixabay-39574.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width:80%;
+    margin: auto;
+}
+.home p{
+    align-items: center;
+    color:aliceblue;
+    padding-top: 95px;
+    padding-right: 304px;
+    text-align: center;
+    width: 70%;
+    font-size: 25px;
+}
+/* .agr{
+    display: flex;
+    
+} */
+
+    
