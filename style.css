@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.flora{
+    width: 80%;
+    margin: auto;
+}
+.flora-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: aquamarine;
+    height: 400px;
+    margin-top: -36px;
+    
+}
+
+.img1{
+    background: url(../freestyle/images/pexels-gru-120834-369433.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img2{
+    background-image: url(../freestyle/images/pexels-inspiredimages-133472.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img3{
+    background-image: url(../freestyle/images/pexels-jmark-250591.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.flora h1{
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: yellowgreen;
+    width: 100%;
+
+}
+.navigation {
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 2px 2px 10px gray;
+    width: 85%;
+    margin: auto;
+}
+
+.navigation ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20ppx;
+    display: block;
+}
+
+.navigation ul li:hover a {
+    background-color:palevioletred;
+    color: #ffffff;
+}
