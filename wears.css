@@ -35,3 +35,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* .container{
+    Image src: url('./images/clothe\ 3.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
