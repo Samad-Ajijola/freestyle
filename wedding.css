@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --padding: 80px;
+}
+body {
+  font-family: "Playfair Display", serif;
+}
+h1,
+h2,
+h3 {
+  font-family: "Courgette", cursive;
+}
+h1 {
+  font-size: 52px;
+}
+h2 {
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+h5 {
+  color: #d1c2b1;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+ul {
+  list-style: none;
+}
+p {
+  color: #928b84;
+}
+button {
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 20px 40px;
+}
+input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: #fff;
+}
+input::placeholder {
+  color: #f1f0ee;
+}
+.btn-primary {
+  background-color: #cbb9a6;
+}
+.btn-primary:hover {
+  background-color: #a3ad6f;
+}
+.btn-secondary {
+  background-color: #a3ad6f;
+}
+.btn-secondary:hover {
+  background-color: #cbb9a6;
+}
+.btn-tertiary {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+nav {
+  background-color: #c9b6a5;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  width: 50%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(./images/wedding-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+header h1 {
+  color: #fff;
+  font-weight: 400;
+}
+
+.plan {
+  padding: 80px;
+}
+.plan img {
+  width: 100%;
+}
+.plan-title,
+.event-title {
+  text-align: center;
+}
+.plan-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 40px;
+  gap: 20px;
+}
+.plan-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.plan-item a {
+  font-family: "Courgette", cursive;
+  font-size: 20px;
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f0ee;
+  height: 90vh;
+}
+.about {
+  display: flex;
+  gap: 20px;
+  width: 80%;
+  height: 60%;
+}
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+}
+.about-text h2,
+.inspiration-text h2 {
+  font-size: 38px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.about-text p,
+.inspiration-text p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  margin-top: 40px;
+  max-width: 95%;
+}
+.about-text button {
+  width: fit-content;
+}
+.about-img {
+  height: 100%;
+  width: 40%;
+}
+.about-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.inspiration {
+  display: flex;
+  justify-content: space-between;
+  gap: 90px;
+  height: 90vh;
+  background-color: #f2f1ef;
+}
+.inspiration-img {
+  height: 100%;
+  width: 50%;
+}
+.inspiration-img img {
+  height: 100%;
+  width: 100%;
+}
+.inspiration-text {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.inspiration-text div {
+  max-width: 70%;
+}
+.inspiration-text button {
+  margin-top: 40px;
+}
+
+.event {
+  padding: var(--padding);
+}
+.event-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.event-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f1f0;
+  padding-bottom: 40px;
+  margin-top: 40px;
+}
+.event-item img {
+  width: 100%;
+}
+.event-item h3 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+.event-item ul {
+  margin-top: 20px;
+  text-align: center;
+}
+.event-item li {
+  border-bottom: 1px solid #dfe0e0;
+  padding: 10px 0;
+  font-size: 14px;
+}
+.event-item li:last-child {
+  border-bottom: none;
+  margin-bottom: 30px;
+}
+.event-item span {
+  color: black;
+  font-size: 24px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.event-item button {
+  margin-top: 30px;
+}
+
+.testimonials-container {
+  padding: var(--padding);
+  width: 100%;
+}
+.testimonials {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-color: #f2f1f0;
+  padding: 50px 0;
+}
+.testimonials-img {
+  position: absolute;
+  top: -45px;
+  left: 45%;
+  width: 80px;
+  height: 80px;
+}
+.testimonials-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+.testimonials h3 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--padding);
+  background-color: #9ea86b;
+}
+.newsletter h3 {
+  color: #fff;
+  font-size: 24px;
+}
+.newsletter-right {
+  display: flex;
+  gap: 20px;
+}
+.newsletter-right input {
+  align-self: flex-end;
+  width: 300px;
+  padding: 10px 20px;
+  padding-left: 0;
+}
