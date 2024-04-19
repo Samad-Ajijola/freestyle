@@ -23,6 +23,9 @@
 .navigation>li>a:hover{
     color: brown;
 }
+.book{
+    margin-left: 350px;
+}
 .face{
     height: 20px;
 }
