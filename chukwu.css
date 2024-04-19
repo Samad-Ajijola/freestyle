@@ -16,7 +16,12 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;  
-  align-content: center;
+  align-items: center;
+}
+.chuk {
+  font-size: 70px;
+  color: bisque;
+  font-weight: bold;
 }
 
 .section1 {
