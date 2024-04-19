@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navigation{
+    background-color: #8080807d;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(229,229, 229, 0.5);
+}
+.navigation ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+}
+.navigation ul li:hover a{
+    background-color: black;
+    color: #ffffff;
+}
+.main-div{
+    background-image: url(../freestyle/images/flower.avif);
+    height: 600px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.writeup h1{
+    font-size: 120px;
+    padding-top: 200px;
+    font-style: italic;
+    font-family: monospace;
+    padding-left: 50px;
+}
+.writeup p{
+    padding-left: 50px;
+}
+.btn{
+    padding: 15px 40px;
+    border: none;
+    font-size: medium;
+    margin-left: 50px;
+    background-color: #8080807d;
+    margin-top: 10px;
+}
