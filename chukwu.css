@@ -68,3 +68,52 @@ body {
   cursor: pointer;
 
 }
+
+
+footer{
+  border-top: solid 0.5px black;
+  margin: auto;
+  width: 90%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.link{
+  color: white !important;
+}
+.copy{
+  width: 100%;
+  border-top: 5% solid;
+  margin-top: 10px;
+}
+.address h3{
+  margin: 0;
+}
+.address p{
+margin: 0;
+}
+.social-icons{
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+.s-icon{
+  width: 30px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.gh {
+display: flex;
+flex-direction: row;
+gap: 600px;
+align-items: center;
+justify-content: center;
+border-top: solid 0.5px white;
+width: 90%;
+
+}
