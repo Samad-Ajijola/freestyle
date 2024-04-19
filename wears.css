@@ -81,6 +81,13 @@ body {
     width: auto;
     gap: 300px;
 }
+.container-3{
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 300px;
+}
 .container-2 text{
     display: flex;
     flex-direction: column;
